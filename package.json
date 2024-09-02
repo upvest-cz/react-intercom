@@ -80,7 +80,7 @@
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
-    "react": "^16.9.0"
+    "react": ">16.9.0"
   },
   "husky": {
     "hooks": {
