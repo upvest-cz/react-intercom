@@ -21,7 +21,8 @@
     "prebuild": "rimraf dist",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
     "start": "rollup -c rollup.config.ts -w",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "prepare": "npm run build"
   },
   "lint-staged": {
     "{src,test}/**/*.ts": [
